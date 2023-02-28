@@ -1,0 +1,19 @@
+# GET http://localhost:3333/api/books
+# Content-Type: application/json
+
+# POST http://localhost:3333/api/register
+# Content-Type: application/json
+
+# {
+#     "name": "Cassandra",
+#     "email": "cass@unal.edu.co",
+#     "password": "23455"
+# }
+
+POST http://localhost:3333/api/login
+Content-Type: application/json
+
+{
+    "email": "cass@unal.edu.co",
+    "password": "23fdgd"
+}
